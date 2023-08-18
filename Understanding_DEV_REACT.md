@@ -21,6 +21,8 @@ A importância da **organização** para o estudo é importantíssima para o má
 
 É uma plataforma essencial para o desenvolvimento de software, oferecendo hospedagem de dados, colaboração eficiente e controle de versão. Permite o compartilhamento global de projetos, facilita revisões de código, automatiza fluxos de trabalho com integração contínua e proporciona um ambiente central para construir, colaborar e aprimorar projetos de software. Com recursos como rastreamento de problemas e integração de ferramentas, o GitHub se tornou fundamental para desenvolvedores e equipes na criação de software inovador e de alta qualidade.
 
-# Alguns passos para git e github
+## Alguns passos para git e github
 
 
+Abrir conta no site [github]- (https://github.com/ "Site do Github").
+Para facilitar o upload de arquivos para o github temos que fazer um chave,existem varias maneiras para fazer
