@@ -30,7 +30,10 @@ Baixar o git no site [Git](https://git-scm.com)
 Comandos simples para usar no dia-a-dia:
 
 - Inicializando um repositório:
-```git init``` Inicializa um novo repositório Git no diretório atual.
+```
+git init
+```
+Inicializa um novo repositório Git no diretório atual.
 
 Fazendo alterações:
 git add <nome_do_arquivo>: Adiciona um arquivo específico para ser rastreado pelo Git.
