@@ -27,4 +27,26 @@ A importância da **organização** para o estudo é importantíssima para o má
 Abrir conta no site [Github](https://github.com).
 Baixar o git no site [Git](https://git-scm.com)
 
-Para facilitar o upload de arquivos para o github temos que fazer uma autenticacao segue como fazer no moto token.
+Comandos simples para usar no dia-a-dia:
+
+- Inicializando um repositório:
+```git init``` Inicializa um novo repositório Git no diretório atual.
+
+Fazendo alterações:
+git add <nome_do_arquivo>: Adiciona um arquivo específico para ser rastreado pelo Git.
+git add . ou git add -A: Adiciona todas as mudanças no diretório atual para serem rastreadas.
+git commit -m "Mensagem do commit": Cria um novo commit com as mudanças adicionadas e associa uma mensagem a ele.
+Verificando o status:
+git status: Exibe o status atual das mudanças no repositório.
+Visualizando histórico:
+git log: Mostra o histórico de commits no repositório.
+git log --oneline: Mostra o histórico de commits de forma compacta.
+Criando e alternando ramos (branches):
+git branch: Lista todos os ramos no repositório.
+git branch <nome_do_branch>: Cria um novo ramo com o nome especificado.
+git checkout <nome_do_branch>: Alterna para um ramo existente.
+Mesclando mudanças:
+git merge <nome_do_branch>: Mescla as mudanças do branch especificado para o branch atual.
+Atualizando e obtendo mudanças:
+git pull: Obtém as alterações mais recentes de um repositório remoto e as mescla no branch atual.
+git push: Envia os commits locais para um repositório remoto.
