@@ -24,7 +24,7 @@ A importância da **organização** para o estudo é importantíssima para o má
 ## Alguns passos para git e github
 
 
-Abrir conta no site [github]- (https://github.com).
+Abrir conta no site [Github](https://github.com).
 Baixar o git no site [Git](https://git-scm.com)
 
 Para facilitar o upload de arquivos para o github temos que fazer uma autenticacao segue como fazer no moto token.
