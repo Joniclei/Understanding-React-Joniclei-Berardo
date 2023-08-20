@@ -29,27 +29,53 @@ Baixar o git no site [Git](https://git-scm.com)
 
 Comandos simples para usar no dia-a-dia:
 
-- Inicializando um repositório:
+1. Inicializando um repositório:
+- Inicializa um novo repositório Git no diretório atual.
+
 ```
 git init
 ```
-Inicializa um novo repositório Git no diretório atual.
 
-Fazendo alterações:
-git add <nome_do_arquivo>: Adiciona um arquivo específico para ser rastreado pelo Git.
-git add . ou git add -A: Adiciona todas as mudanças no diretório atual para serem rastreadas.
-git commit -m "Mensagem do commit": Cria um novo commit com as mudanças adicionadas e associa uma mensagem a ele.
-Verificando o status:
-git status: Exibe o status atual das mudanças no repositório.
-Visualizando histórico:
-git log: Mostra o histórico de commits no repositório.
-git log --oneline: Mostra o histórico de commits de forma compacta.
-Criando e alternando ramos (branches):
-git branch: Lista todos os ramos no repositório.
-git branch <nome_do_branch>: Cria um novo ramo com o nome especificado.
-git checkout <nome_do_branch>: Alterna para um ramo existente.
-Mesclando mudanças:
-git merge <nome_do_branch>: Mescla as mudanças do branch especificado para o branch atual.
-Atualizando e obtendo mudanças:
-git pull: Obtém as alterações mais recentes de um repositório remoto e as mescla no branch atual.
-git push: Envia os commits locais para um repositório remoto.
+2. Fazendo alterações:
+
+- Adiciona um arquivo específico para ser rastreado pelo Git.
+
+```
+git add <nome_do_arquivo>
+```
+- Adiciona todas as mudanças no diretório atual para serem rastreadas.Aqui é importante atentar ao espaco antes do ponto. add .
+
+```
+git add .
+
+```
+
+- Registra as alteracoes feitas para o repositorio com comentario.Aqui é sempre bom deixar comentarios para entendimento.
+```
+git commit -m "Mensagem do commit"
+```
+
+3. Verifica o status:
+- Exibe o status atual das mudanças no repositório.Sempre bom ver antes de dar o push.
+```
+git status
+```
+4. Verifica as branchs
+
+- Lista todos os ramos no repositório.
+```
+git branch
+```
+5. Upload para o github
+Envia os commits locais para um repositório remoto.Aqui pode usar o git push origin ***nome da branch***
+```
+git push
+```
+6. Atualizar e obter as mudancas do repositorio do github.
+
+-Obtém as alterações mais recentes de um repositório remoto e as mescla no branch atual
+
+
+```
+git pull
+```
