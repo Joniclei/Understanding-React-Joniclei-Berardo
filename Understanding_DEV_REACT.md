@@ -73,7 +73,7 @@ git push
 ```
 6. Atualizar e obter as mudancas do repositorio do github.
 
--Obtém as alterações mais recentes de um repositório remoto e as mescla no branch atual
+- Obtém as alterações mais recentes de um repositório remoto 
 
 
 ```
